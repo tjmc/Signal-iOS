@@ -44,7 +44,7 @@ platform :ios do
 
     result = multi_scan(
       workspace: "Signal.xcworkspace",
-      try_count: 3,
+      try_count: 10,
       fail_build: false,
       scheme: 'Signal',
       testrun_completed_block: test_run_block
