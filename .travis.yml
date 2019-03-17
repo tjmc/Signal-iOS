@@ -14,7 +14,8 @@ env:
 
 install:
 #    - gem install bundler:2.0.1
-    - bundle install
+    - bundle update --bundler
+#    - bundle install
     - bundle exec pod repo update --silent # log output is too long without --silent
 
 script: 
